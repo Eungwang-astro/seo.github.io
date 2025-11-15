@@ -77,8 +77,8 @@ body {
 
 .profile-photo {
     width: 170px;
-    height: 190px;
-    border-radius: 60%;
+    height: 210px;
+    border-radius: 70%;
     object-fit: cover;
     margin-bottom: 1rem;
     border: 3px solid #e5e7eb;
