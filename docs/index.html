@@ -2,42 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Eungwang's Website</title>
+    <title>Eungwang Seo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Welcome to My Website!</h1>
-        <p>Hello! I’m Eungwang Seo, welcome to my personal webpage.</p>
+    <!-- Top Header + Navigation -->
+    <header class="site-header">
+        <div class="logo-area">
+            <span class="site-title">Eungwang Seo</span>
+            <span class="site-subtitle">Gravitational-Wave Lensing & Cosmology</span>
+        </div>
+        <nav class="site-nav">
+            <a href="#about">About Me</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#cv">CV</a>
+            <a href="#outreach">Outreach</a>
+        </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- 1. My Pictures and Contact Info -->
-        <section id="about-me">
-            <h2>About Me</h2>
-            <img src="images/myphoto.jpg" alt="Eungwang Seo" style="width:200px; border-radius:50%;">
-            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-            <p>
-                <a href="CV.pdf" target="_blank">Download my CV</a><br>
-                <a href="publications.html">Publication List</a>
+    <!-- Main Layout -->
+    <main class="layout">
+        <!-- Left Sidebar: Photo + Quick Info -->
+        <aside class="sidebar">
+            <img src="images/myphoto.jpg" alt="Eungwang Seo" class="profile-photo">
+            <h2 class="name">Eungwang Seo</h2>
+            <p class="position">
+                PhD Candidate<br>
+                University of Glasgow
             </p>
-        </section>
+            <p class="contact">
+                Email:
+                <a href="mailto:youremail@example.com">youremail@example.com</a>
+            </p>
+            <div class="sidebar-links">
+                <a href="CV.pdf" target="_blank">📄 CV</a>
+                <a href="publications.html" target="_blank">📚 Publications</a>
+            </div>
+        </aside>
 
-        <!-- 2. Topics of Interest -->
-        <section id="interests">
-            <h2>My Topics of Interest</h2>
-            <ul>
-                <li>Gravitational Waves and Multi-messenger Astronomy</li>
-                <li>Cosmology and Hubble Constant Measurements</li>
-                <li>Astrophysical Simulations and Data Analysis</li>
-            </ul>
+        <!-- Center Content -->
+        <section class="content">
+            <!-- About Me -->
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am a final-year PhD candidate in Physics & Astronomy at the
+                    University of Glasgow. My research focuses on gravitational-wave
+                    lensing, standard-siren cosmology, and the use of hierarchical
+                    Bayesian methods to probe the Hubble constant and dark-matter
+                    structures.
+                </p>
+                <p>
+                    Within the LIGO–Virgo–KAGRA Collaboration, I work on searches
+                    for strongly lensed gravitational-wave signals and the development
+                    of pipelines that connect lensing observables to cosmological
+                    inference.
+                </p>
+            </section>
+
+            <!-- Research -->
+            <section id="research">
+                <h2>Research</h2>
+                <ul>
+                    <li>Strong lensing of gravitational-wave signals</li>
+                    <li>Standard-siren cosmology and H<sub>0</sub> measurements</li>
+                    <li>Microlensing and dark-matter substructure</li>
+                    <li>Hierarchical Bayesian population inference</li>
+                </ul>
+            </section>
+
+            <!-- Publications -->
+            <section id="publications">
+                <h2>Publications</h2>
+                <p>
+                    A full publication list is available
+                    <a href="publications.html" target="_blank">here</a>.  
+                    Selected works:
+                </p>
+                <ul>
+                    <li>Paper 1 – short one-line description.</li>
+                    <li>Paper 2 – short one-line description.</li>
+                </ul>
+            </section>
+
+            <!-- CV -->
+            <section id="cv">
+                <h2>CV</h2>
+                <p>
+                    You can download my full CV
+                    <a href="CV.pdf" target="_blank">here</a>.
+                </p>
+            </section>
+
+            <!-- Outreach -->
+            <section id="outreach">
+                <h2>Outreach</h2>
+                <p>
+                    I enjoy communicating gravitational-wave science to broader
+                    audiences through talks, workshops, and interactive activities,
+                    both in English and Korean.
+                </p>
+            </section>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <p>© 2025 Eungwang Seo</p>
     </footer>
 </body>
