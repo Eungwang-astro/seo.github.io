@@ -44,5 +44,5 @@ a{color:var(--cyan)}
 .card p{color:var(--mute);margin-top:.4rem}
 .stack>*+*{margin-top:1.2rem}
 footer{text-align:center;color:var(--mute);font-size:.85rem;padding:2rem 1rem}
-@media(max-width:800px){.hero{grid-template-columns:1fr;text-align:center;padding-top:2rem}.btns{justify-content:center}.photo{order:-1;width:250px}}
+@media(max-width:800px){.hero{grid-template-columns:1fr;text-align:center;padding-top:2rem}.btns{justify-content:center}.photo{order:-1;width:200px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
