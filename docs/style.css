@@ -21,7 +21,16 @@ a{color:var(--cyan)}
 .hero h1{font-size:clamp(3rem,9vw,6rem);background:linear-gradient(120deg,#fff 20%,var(--amber) 60%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero .lead{font-size:1.25rem}
 .hint{color:var(--mute);font-size:.85rem;margin-top:1.5rem}
-.photo{justify-self:center;width:min(300px,70vw);aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:top;border:2px solid var(--amber);box-shadow:0 0 0 12px rgba(255,180,84,.08),0 0 80px rgba(139,124,255,.45)}
+.photo{
+  justify-self:center;
+  width:min(360px,70vw);
+  aspect-ratio:4/5;
+  border-radius:18px;
+  object-fit:cover;
+  object-position:center;
+  border:2px solid var(--amber);
+  box-shadow:0 0 0 12px rgba(255,180,84,.08),0 0 80px rgba(139,124,255,.45)
+}
 .btns{display:flex;gap:.7rem;flex-wrap:wrap}
 .btn{display:inline-block;padding:.65rem 1.3rem;border-radius:99px;text-decoration:none;font-weight:600;background:var(--amber);color:#0a0d1e;transition:transform .2s,box-shadow .2s}
 .btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(255,180,84,.35)}
