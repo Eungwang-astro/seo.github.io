@@ -1,4 +1,4 @@
-const P=[['index.html','Home'],['research.html','Research'],['publications.html','Publications'],['outreach.html','Outreach'],['contact.html','Contact']];
+const P=[['index.html','Home'],['research.html','Research'],['publications.html','CV/Publications'],['outreach.html','Outreach'],['contact.html','Contact']];
 const cur=location.pathname.split('/').pop()||'index.html';
 document.body.insertAdjacentHTML('afterbegin','<canvas id="sky"></canvas><header class="bar"><a class="brand" href="index.html">Eungwang Seo (서은광; 徐恩光)</a><nav>'+P.map(([h,t])=>`<a href="${h}"${h===cur?' aria-current="page"':''}>${t}</a>`).join('')+'</nav></header>');
 document.body.insertAdjacentHTML('beforeend','<footer>© 2026 Eungwang Seo. Powered by <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a></footer>');
